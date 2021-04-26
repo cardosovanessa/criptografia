@@ -76,6 +76,10 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    color: lightblue;
+  }
+
   body {
     background-color: lightblue;
   }
