@@ -1,0 +1,82 @@
+header {
+  background: #000000;
+  padding: 65px 0;
+  font-size: 17px;
+  color: wheat;
+  padding: 40px 24px;
+  border-radius: 10px;
+}
+
+body {
+  background: wheat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+form {
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 10px;
+  padding: 30px 90px;
+}
+
+.grupo,
+.acao {
+  margin-top: 20px;
+}
+
+.grupo label {
+  display: block;
+}
+
+label {
+  font-size: 20px;
+}
+
+#mensagem {
+  margin-top: 15px;
+  width: 30%;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+select {
+  border-radius: 3px;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+#incremento {
+  border-radius: 3px;
+  margin-top: 15px;
+  width: 20%;
+  padding: 4px 15px;
+}
+
+#codificar,
+#decodificar {
+  margin-top: 12px;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+#resultado {
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
