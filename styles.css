@@ -1,14 +1,22 @@
 header {
-  background: #000000;
+  background-image: linear-gradient(
+    -90deg,
+    #f092ddcb 0%,
+    rgba(253, 232, 188, 0.747) 100%
+  );
   padding: 65px 0;
   font-size: 17px;
-  color: wheat;
+  color: rgb(0, 0, 0);
   padding: 40px 24px;
   border-radius: 10px;
 }
 
 body {
-  background: wheat;
+  background-image: linear-gradient(
+    -90deg,
+    #eca9df 0%,
+    rgb(247, 225, 187) 100%
+  );
   text-align: center;
   display: flex;
   flex-direction: column;
